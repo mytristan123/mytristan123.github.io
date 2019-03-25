@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css" /> 
+	<script src="scriptShopping.js"></script>
+  </head>
+  <body>
+
+  
+    
+	<div class="content">
+	
+	<p><input id="important" type="checkbox" name="important"> Is Important </p>
+	
+	<p><input id="groceries" type="checkbox" name="groceries"> Can be bought in groceries </p>
+	
+    <p>Item to buy <input type="text" name="value" id="value">
+	
+	
+    <button id="submit" onclick="javascript:addItem();">Add</button> </p> <br />
+	
+	<p> Item to remove <input id="removeItem" type="number" name"remove">
+	<button id="buttonRemove" onclick="removeItem()" type="button"> Remove ! </button> </p>
+	
+	<p>Shopping List : </p>
+	
+	<ul id="list">
+	</ul>
+	
+	
+	
+	</div>
+	
+	
+  </body>
+</html>
